@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Die Naturärzte</title>
+
+    <link href="/favicon.png" rel="icon"/>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body id="skrollr-body">
+
+<div id="bg1" data-0="background-position:0px 0px;" data-1500="background-position:0px -1500px;"></div>
+<div id="bg2" data-0="background-position:0px 0px;" data-1500="background-position:0px -1000px;"></div>
+<div id="bg3" data-0="background-position:0px 0px;" data-1500="background-position:0px -500px;"></div>
+
+<div class="container">
+
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p class="copyright">&copy Carol &amp; Julo Indemini-Lüthy 2018</p>
+    </div>
+</footer>
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/skrollr.min.js"></script>
+
+<script type="text/javascript">
+    var s = skrollr.init({
+        edgeStrategy: 'set',
+        easing: {
+            WTF: Math.random,
+            inverted: function (p) {
+                return 1 - p;
+            }
+        }
+    });
+</script>
+
+</body>
+</html>

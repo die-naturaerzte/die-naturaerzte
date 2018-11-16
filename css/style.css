@@ -2,6 +2,7 @@ body {
     font-family: Georgia, serif;
     margin-top: 100px;
     padding-bottom: 100px;
+    line-height: 1.4;
 }
 
 #bg1, #bg2, #bg3 {
@@ -49,6 +50,14 @@ h1 {
 .well img {
     width: 100%;
     padding-bottom: 30px;
+}
+
+.table td {
+    padding: 4px 0 0;
+}
+
+.table td:last-child {
+    padding-left: 12px;
 }
 
 .footer {

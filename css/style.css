@@ -50,6 +50,7 @@ h1 {
 .well img {
     width: 100%;
     padding-bottom: 30px;
+    object-fit: cover;
 }
 
 .table td {

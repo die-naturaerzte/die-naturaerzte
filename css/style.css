@@ -54,7 +54,6 @@ h2 {
 }
 
 .well {
-    height: 100%;
     background-color: white;
     border: 3px solid grey;
     border-radius: 0;
@@ -62,6 +61,14 @@ h2 {
     padding: 30px;
     margin: 10px;
     font-size: 21px;
+}
+
+.vPushed {
+    height: 100%;
+}
+
+.vSpaced {
+    margin-bottom: 20px;
 }
 
 .well img {

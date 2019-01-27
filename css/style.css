@@ -1,8 +1,11 @@
 body {
     font-family: Georgia, serif;
-    margin-top: 100px;
-    padding-bottom: 100px;
     line-height: 1.4;
+}
+
+.main {
+    margin-top: 70px;
+    padding-bottom: 100px;
 }
 
 #bg1, #bg2, #bg3 {
@@ -33,7 +36,7 @@ nav, footer {
 
 h1 {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 

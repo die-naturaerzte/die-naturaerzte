@@ -89,10 +89,15 @@ h2 {
 }
 
 .well img {
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    object-fit: cover;
+    padding: 10px 5px 20px;
+    object-fit: contain;
+    align-self: start;
+}
+
+.well img.front {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .table td {

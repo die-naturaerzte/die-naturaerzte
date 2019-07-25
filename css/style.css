@@ -9,6 +9,18 @@ body {
     padding-bottom: 100px;
 }
 
+.link {
+    color: black;
+    border-collapse: separate;
+    box-shadow: inset 0 -.4em 0 rgba(163, 222, 40, 0.3);
+}
+
+.link:hover {
+    color: black;
+    box-shadow: inset 0 -.4em 0 rgba(163, 222, 40, 0.8);
+    text-decoration: none;
+}
+
 #bg1, #bg2, #bg3 {
     position: fixed;
     z-index: -50;

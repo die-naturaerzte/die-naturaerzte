@@ -10,7 +10,7 @@ body {
 }
 
 .link {
-    color: black;
+    color: inherit;
     border-collapse: separate;
     box-shadow: inset 0 -.4em 0 rgba(163, 222, 40, 0.3);
 }
@@ -21,8 +21,12 @@ body {
     text-decoration: none;
 }
 
+.dropdown-item {
+    color: rgba(0,0,0,.5);
+}
+
 .dropdown-item.active {
-    color: black;
+    color: inherit;
     background-color: rgba(163, 222, 40, 0.8);
 }
 

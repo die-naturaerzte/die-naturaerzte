@@ -1,3 +1,7 @@
+html {
+    overflow: scroll !important;
+}
+
 body {
     font-family: Georgia, serif;
     line-height: 1.4;

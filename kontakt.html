@@ -145,14 +145,17 @@
 
 <script type="text/javascript">
   var s = skrollr.init({
-    edgeStrategy: 'set',
+    edgeStrategy: "set",
     easing: {
       WTF: Math.random,
-      inverted: function (p) {
+      inverted: function(p) {
         return 1 - p;
       }
     }
   });
+  if (s.isMobile()) {
+    s.destroy();
+  }
 </script>
 </body>
 </html>

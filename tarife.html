@@ -59,6 +59,28 @@
                             <a class="dropdown-item" href="julo-indemini.html">Julo Indemini</a>
                         </div>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                role="button"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                        >
+                            Methoden
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="akupunktur.html">Akupunktur</a>
+                            <a class="dropdown-item" href="phytotherapie.html">Phytotherapie</a>
+                            <a class="dropdown-item" href="dorntherapie.html">Dorntherapie</a>
+                            <a class="dropdown-item" href="tuina.html">Tuina</a>
+                            <a class="dropdown-item" href="shonishin.html">Shonishin</a>
+                            <a class="dropdown-item" href="ernaehrungsberatung.html">Ernährungsberatung</a>
+                            <a class="dropdown-item" href="schroepfen.html">Schröpfen</a>
+                            <a class="dropdown-item" href="moxibustion.html">Moxibustion</a>
+                        </div>
+                    </li>
                     <li class="nav-item active"><a class="nav-link" href="#">Tarife</a></li>
                     <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
                 </ul>
@@ -96,14 +118,17 @@
 
 <script type="text/javascript">
   var s = skrollr.init({
-    edgeStrategy: 'set',
+    edgeStrategy: "set",
     easing: {
       WTF: Math.random,
-      inverted: function (p) {
+      inverted: function(p) {
         return 1 - p;
       }
     }
   });
+  if (s.isMobile()) {
+    s.destroy();
+  }
 </script>
 </body>
 </html>

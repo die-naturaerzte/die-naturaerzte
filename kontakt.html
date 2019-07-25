@@ -59,6 +59,28 @@
                             <a class="dropdown-item" href="julo-indemini.html">Julo Indemini</a>
                         </div>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                role="button"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                        >
+                            Methoden
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="akupunktur.html">Akupunktur</a>
+                            <a class="dropdown-item" href="phytotherapie.html">Phytotherapie</a>
+                            <a class="dropdown-item" href="dorntherapie.html">Dorntherapie</a>
+                            <a class="dropdown-item" href="tuina.html">Tuina</a>
+                            <a class="dropdown-item" href="shonishin.html">Shonishin</a>
+                            <a class="dropdown-item" href="ernaehrungsberatung.html">Ernährungsberatung</a>
+                            <a class="dropdown-item" href="schroepfen.html">Schröpfen</a>
+                            <a class="dropdown-item" href="moxibustion.html">Moxibustion</a>
+                        </div>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="tarife.html">Tarife</a></li>
                     <li class="nav-item active"><a class="nav-link" href="#">Kontakt</a></li>
                 </ul>
@@ -71,7 +93,7 @@
             <div class="well">
                 <h1>Kontakt</h1>
                 <p>Termine nach Vereinbarung</p>
-                <p><a href="mailto:kontakt@die-naturärzte.ch">kontakt@die-naturärzte.ch</a></p>
+                <p><a class="link" href="mailto:kontakt@die-naturärzte.ch">kontakt@die-naturärzte.ch</a></p>
             </div>
         </div>
     </div>
@@ -87,7 +109,7 @@
                 <p>
                     Weiherweg 18<br/>
                     4054 Basel<br/>
-                    +41 79 263 04 66
+                    <a class="link" href="tel:+41 79 263 04 66">+41 79 263 04 66</a>
                 </p>
             </div>
         </div>
@@ -102,7 +124,7 @@
                 <p>
                     Hauptstrasse 72<br/>
                     4436 Oberdorf<br/>
-                    +41 76 589 89 99
+                    <a class="link" href="tel:+41 76 589 89 99">+41 76 589 89 99</a>
                 </p>
             </div>
         </div>
@@ -123,14 +145,17 @@
 
 <script type="text/javascript">
   var s = skrollr.init({
-    edgeStrategy: 'set',
+    edgeStrategy: "set",
     easing: {
       WTF: Math.random,
-      inverted: function (p) {
+      inverted: function(p) {
         return 1 - p;
       }
     }
   });
+  if (s.isMobile()) {
+    s.destroy();
+  }
 </script>
 </body>
 </html>
